@@ -1,0 +1,41 @@
+public class Student {
+    private String name;
+    private int rollNum;
+    private double marks;
+    public Student(String name, int rollNum, double marks) {
+        this.name = name;
+        this.rollNum = rollNum;
+        this.marks = marks;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public int getRollNum() {
+        return rollNum;
+    }
+
+    public double getMarks() {
+        return marks;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setRollNum(int rollNum) {
+        this.rollNum = rollNum;
+    }
+
+    public void setMarks(double marks) {
+        this.marks = marks;
+    }
+    public void displayStudentInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Roll Number: " + rollNum);
+        System.out.println("Marks: " + marks);
+    }
+    public static void main(String[] args) {
+        Student student1 = new Student("John Doe", 101, 89.5);
+        student1.displayStudentInfo();
+    }
+}
