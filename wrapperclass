@@ -1,0 +1,17 @@
+package aug_14;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+    int a=20;
+		Integer wrap1=
+		System.out.println("Wrapper Integer : " + wrap1);
+		       
+		boolean b1=true;
+		Boolean wrap2=b1;
+		System.out.println("Wrapper Boolean : " + wrap2);
+        
+	}
+
+	
+}
